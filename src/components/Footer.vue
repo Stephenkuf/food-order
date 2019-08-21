@@ -7,7 +7,7 @@
     <footer class="footer-bs ">
         <div class="row">
         	<div class="col-md-3 footer-brand animated fadeInLeft">
-            	<h2><img style="height:120px;width:130px; padding-bottom:4px;" src="../assets/logo.png" alt="" srcset=""></h2>
+            	<h2><img style="height:110px;width:104px; padding-bottom:4px;" src="../assets/logo.png" alt="" srcset=""></h2>
                 <p>Foodline is dedicated ti making sure that oy get the best food possible wherever you are in ibadan .</p>
                 <br><br><br><br><br><br><br><br><br><br><br><hr>
                 <p>© 2019 Foodline.com  All rights reserved</p>
@@ -89,7 +89,7 @@ hr{
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
 .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
-.footer-bs .footer-brand p { font-size:11px; color:rgba(255,255,255,0.70); }
+.footer-bs .footer-brand p { font-size:9px; color:rgba(255,255,255,0.70); }
 
 .footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.pages li { padding:5px 0px;}
@@ -100,8 +100,10 @@ hr{
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin-bottom:10px;
+    }
+li{
+    font-size: 11px;
 }
-
 .footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
 .footer-bs .footer-nav ul.list li { padding:5px 0px;}
 .footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
@@ -122,8 +124,8 @@ hr{
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin-bottom:10px;
-}
-.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+}   
+.footer-bs .footer-ns p { font-size:10px; color:rgba(255,255,255,0.70); }
 
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }

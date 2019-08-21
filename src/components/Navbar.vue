@@ -1,19 +1,19 @@
 <template>
     <div class="main" >
        
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-light">
-             <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-col">
+             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
                  <router-link to="/" class="navbar-brand">
-                        <img style="height:120px;width:130px; padding-bottom:4px;" src="../assets/logo.png" alt="" srcset="">
+                        <img style="height:110px;width:120px; padding-bottom:4px;" src="../assets/logo.png" alt="" srcset="">
                  </router-link> 
                 
                 <div class=" ml-auto text-light mr-4">
                     <button type="button" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#exampleModal">
-                       LOGIN / SIGN UP
+                       <p style="font-size:11px;">LOGIN / SIGN UP</p> 
                     </button>
                 </div>
             </div>
@@ -109,6 +109,9 @@ export default {
     .main{
       margin-bottom: 65px;
     }
+     .nav-col{
+       background-color:rgba(255, 255, 255, 0.514);
+     }
     .container{
         height: 50px;
     }
@@ -174,12 +177,12 @@ body {
    font-family: 'Josefin Sans', sans-serif;
   /*  font-family: 'Josefin Sans', sans-serif; */
   color: #333;
-  font-size: 13px;
+  font-size: 10px;
   margin: 0; }
 input, textarea, select, .reg-btn {
   font-family: 'Josefin Sans', sans-serif;
   color: #333;
-  font-size: 13px; }
+  font-size: 11px; }
 p, h1, h2, h3, h4, h5, h6, ul {
   margin: 0; }
 img {

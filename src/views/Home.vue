@@ -45,6 +45,36 @@
                           </div>                      
                         </div>
                       </div>
+                  </div>              
+                  <div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up">
+                    <div class="media feature-icon d-block  box text-center">
+                        <div class="icon">
+                            <span class="flaticon-soup">
+                              <img  style="height:50px;" src="../assets/icon1.png" alt="" srcset="">
+                            </span>
+                        </div>
+                        <div class="media-body">
+                          <h3 class="how-header">Make Order </h3>
+                          <div class="how-text">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur </p>
+                          </div>                      
+                        </div>
+                      </div>
+                  </div>              
+                  <div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up">
+                    <div class="media feature-icon d-block  box text-center">
+                        <div class="icon">
+                            <span class="flaticon-soup">
+                              <img  style="height:50px;" src="../assets/icon1.png" alt="" srcset="">
+                            </span>
+                        </div>
+                        <div class="media-body">
+                          <h3 class="how-header">Get Food delivered </h3>
+                          <div class="how-text">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non pariatur </p>
+                          </div>                      
+                        </div>
+                      </div>
                   </div>                   
                 
                 </div>
@@ -74,8 +104,7 @@ import Vue from 'vue'
       padding: 8px;
      border: 2px solid rgba(156, 156, 156, 0.322);
      border-radius:10px;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     
+    font-family: 'Josefin Sans', sans-serif;
 
     }
    
@@ -84,7 +113,7 @@ import Vue from 'vue'
       border: 2px solid rgba(51, 51, 51, 0.678);
     }
     .header-message{
-      font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
       font-size: 35px;
       letter-spacing: 0px;
       word-spacing: -0.6px;
@@ -122,7 +151,7 @@ import Vue from 'vue'
       
     }
  .box{
-   font-family: "Open Sans", cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     font-weight: 300;
